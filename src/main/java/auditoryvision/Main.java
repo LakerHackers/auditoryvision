@@ -21,6 +21,7 @@ public class Main {
         System.out.println("Querying api");
         VisualClassification imageInfo = api.getImageInfo(file);
 
-        System.out.println(imageInfo.toString());
+        String description = Description.createDescription(imageInfo);
+        System.out.println(description);
     }
 }

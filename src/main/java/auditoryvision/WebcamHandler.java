@@ -19,6 +19,7 @@ public class WebcamHandler {
         webcam.open();
         File file = new File(capturePath);
         ImageIO.write(webcam.getImage(), "jpg", file);
+        webcam.close();
         return file;
     }
 }
