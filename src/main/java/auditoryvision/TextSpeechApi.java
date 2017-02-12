@@ -8,6 +8,9 @@ import com.ibm.watson.developer_cloud.text_to_speech.v1.util.WaveUtils;
 import javax.sound.sampled.*;
 import java.io.*;
 
+/**
+ * @author Shakhar Dasgupta
+ */
 public class TextSpeechApi {
     private String username;
     private String password;
