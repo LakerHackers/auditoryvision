@@ -15,7 +15,7 @@ repositories {
 dependencies {
     compile 'org.slf4j:slf4j-simple:1.7.22'
     compile 'com.github.sarxos:webcam-capture:0.3.10'
-    compile 'com.ibm.watson.developer_cloud:visual-recognition:3.5.3'
+    compile 'com.ibm.watson.developer_cloud:java-sdk:3.5.3'
     compile "com.sparkjava:spark-core:2.5.5"
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }

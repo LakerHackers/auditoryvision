@@ -6,13 +6,15 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @author Shakhar Dsagupta
  */
 public class WebcamHandler {
     public static File capture(String capturePath) throws IOException {
-        Webcam webcam = Webcam.getDefault();
+        List<Webcam> webcams = Webcam.getWebcams();
+        Webcam webcam = webcams.get(webcams.size() - 1);
         Dimension[] dimensions = webcam.getViewSizes();
         Dimension largest = dimensions[dimensions.length - 1];
         webcam.setViewSize(largest);
