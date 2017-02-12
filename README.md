@@ -5,3 +5,8 @@ Auditory Vision is a program that gives the user auditory notifications on the o
 ```
 $ gradle run < apikey.txt
 ```
+
+## Authors
+* Shakhar Dasgupta
+* Christopher Wells
+* Kyle Zeller

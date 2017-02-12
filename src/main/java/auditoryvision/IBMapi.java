@@ -6,6 +6,9 @@ import com.ibm.watson.developer_cloud.visual_recognition.v3.model.VisualClassifi
 
 import java.io.File;
 
+/**
+ * @author Christopher Wells
+ */
 public class IBMapi {
     private VisualRecognition service;
     private String apiKey;

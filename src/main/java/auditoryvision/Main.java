@@ -8,6 +8,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * @author Christopher Wells
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

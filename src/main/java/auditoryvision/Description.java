@@ -6,6 +6,9 @@ import com.ibm.watson.developer_cloud.visual_recognition.v3.model.VisualClassifi
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @author Christopher Wells
+ */
 public class Description {
     public static String createDescription(VisualClassification info) {
         List<VisualClass> vcs = info.getImages().get(0).getClassifiers().get(0).getClasses();
